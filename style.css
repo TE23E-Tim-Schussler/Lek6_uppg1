@@ -1,0 +1,31 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 20vh 80vh 20vh;
+    background-color:blanchedalmond
+}
+.container{
+    border:3px solid black;
+    border-radius: 3px;
+    text-align: center;
+    margin:5px;
+}
+.logo{
+        height:100%;
+        width:100%
+}
+nav{
+    border:3px solid black;
+    border-radius: 3px;
+    text-align: center;
+    margin:5px; 
+}
+main{
+    grid-template-rows:30vh 30vh 30vh;
+}
+footer{
+    border:3px solid black;
+    border-radius: 3px;
+    text-align: center;
+    margin:5px; 
+}
